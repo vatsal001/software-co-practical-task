@@ -1,12 +1,12 @@
 // src/redux/slices/userSlice.js
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   Superadmin: null,
 };
 
-const SuperadminSlice = createSlice({
-  name: 'Superadmin',
+const superadminSlice = createSlice({
+  name: "Superadmin",
   initialState,
   reducers: {
     setSuperadmin: (state, action) => {
